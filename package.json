@@ -1,0 +1,24 @@
+{
+  "name": "foodeapp",
+  "version": "1.0.0",
+  "description": "all activity in food app sign up, login,order food ,payment etc ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon method.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "social"
+  ],
+  "author": "zakir abbas",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.3.1"
+  }
+}
